@@ -11,9 +11,7 @@
     font-family:inherit;
   }
 
-ol, 
-ul, 
-li {
+ol, ul, li {
   display:block;
   list-style:none;
 }
@@ -27,8 +25,7 @@ a img {
   border: none;
 }
 
-button,
-a{
+button, a{
   cursor: pointer; 
   color: inherit;
 }
@@ -37,11 +34,30 @@ textarea{
   resize: none;
 }
 
-button, 
-input, 
-textarea, 
-select{
+button, input, textarea, select{
   appearance: none !important; 
   -webkit-appearance: none !important; 
   border-radius: 0;
 }
+
+section {
+  min-height: 100vh;
+}
+
+#menu-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+

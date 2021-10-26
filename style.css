@@ -56,7 +56,7 @@ section {
 }
 
 #menu-btn.clicked {
-  background-color: red;
+  background-color: orange;
 }
 
 #nav {
@@ -72,5 +72,6 @@ section {
 #nav.clicked {
   right: 0;
 }
+
 
 

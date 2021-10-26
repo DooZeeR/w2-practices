@@ -1,5 +1,6 @@
 function menu(event) {
     event.target.classList.toggle("clicked");
+    document.getElementById("nav").classList.toggle("clicked");
 }
 
 function loadEvent() {

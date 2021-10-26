@@ -59,7 +59,7 @@ section {
   background-color: red;
 }
 
-nav {
+#nav {
   position: fixed;
   top: 0;
   right: -200px;
@@ -69,7 +69,7 @@ nav {
   background-color: royalblue;
 }
 
-nav.clicked {
+#nav.clicked {
   right: 0;
 }
 

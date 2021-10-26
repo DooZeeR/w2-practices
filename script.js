@@ -1,11 +1,18 @@
-function menu(event) {
+/* function menu(event) {
     event.target.classList.toggle("clicked");
-}
+} */
+function toggleClicked(event) {
+    event.target.classlist.toggle("clicked");
+    document.getElementById("menu-btn").classlist.toggle("clicked");
+};
 
 function loadEvent() {
-    const rootElement = document.getElementById('root');
+    console.log("the page has loaded");
 
-    document.getElementById("menu-btn").addEventListener("click", menu);
+     const rootElement = document.getElementById('root'); 
+
+    document.getElementById("menu-btn").addEventListener("click", toggleClicked);
+    
 }
 
 window.addEventListener("load", loadEvent);

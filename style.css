@@ -52,12 +52,25 @@ section {
   height: 40px;
   background-color: black;
   margin: 20px;
+  z-index: 10;
 }
 
+#menu-btn.clicked {
+  background-color: red;
+}
 
+nav {
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100px;
 
+  background-color: royalblue;
+}
 
-
-
+nav.clicked {
+  right: 0;
+}
 
 

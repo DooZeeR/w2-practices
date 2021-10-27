@@ -69,9 +69,7 @@ section {
   background-color: royalblue;
 }
 
-#nav.clicked {
+#body.clicked nav {
   right: 0;
 }
-
-
 

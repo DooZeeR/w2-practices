@@ -14,7 +14,7 @@ window.addEventListener("load", loadEvent);  */
 
 function toggleClicked(event) {
     event.target.classList.toggle("clicked");
-    document.getElementById("nav").classList.toggle("clicked");
+    document.getElementById("body").classList.toggle("clicked");
 }
 
 function loadEvent() {
